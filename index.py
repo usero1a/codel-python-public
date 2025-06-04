@@ -22,7 +22,7 @@ def search():
             "x-api-key": ""
         }
         data = {
-            "query": f"find {query} on GitHub, GitLab and npm and make sure to show result for all three",  # Use the actual user input as the query
+            "query": f"",  # Use the actual user input as the query
             "contents": {
                 "text": {"maxCharacters": 1000}
             }
